@@ -1,23 +1,59 @@
-header > img{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    margin-left: 100px;
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=Creepster&family=Nosifer&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=Creepster&family=Nosifer&family=Passion+One:wght@400;700;900&family=Radley:ital@0;1&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=Creepster&family=Croissant+One&family=Nosifer&family=Passion+One:wght@400;700;900&family=Radley:ital@0;1&family=Sriracha&display=swap');
+
+body{
+    overflow-x: hidden;
+    background-color: aliceblue;
 }
-   
+
+header{
+    width: 100%;
+    height: 13vh;
+}
+
+#menu{
+    position: absolute;
+    margin: 28px 30px;
+    cursor: pointer; /*Transformar o curso em uma mão assim que passar o mouse por cima*/
+}
+
+header > img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 360px;
+    margin-top: 6px;
+    position: absolute;
+}
+
 #homelinks{
-    padding-left: 500px;
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    justify-content: end;
-    margin-top: -70px;
-    margin-right: 70px;
+    display: none;
+}
+
+ul{
+    position: absolute;
+    background-color: #e1c06e;
+    list-style: none;
+    width: 140px;
+    padding: 20px 15px 10px 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 500;
+    margin-left: -9px;
+    margin-top: 70px;
+}
+
+li{
+    margin-bottom: 12px;
+}
+
+li:hover{
+    text-decoration: underline;
 }
 
 .link{
@@ -25,41 +61,7 @@ header > img{
     text-decoration: none;
     color: black;
     font-size: 22px;
-    padding-left: 15px;
 }
-
-.link:hover{
-    color: #E1C06E;
-}  
-
-#linkhome{
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: #7e6b3d;
-    font-size: 22px;
-}
-
-#linkhome:hover{
-    color: black;
-}
-
-#linkcontato{
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 22px;
-    background-color: #E1C06E; 
-    border-radius: 20px;
-    padding: 5px 10px;
-    margin-left: 15px;
-}
-
-li{
-    list-style: none;
-    display: inline;
-    width: 100%;
-    height: 120vh;
-} 
 
 main{
     margin: 28px -8px 20px -8px;
@@ -68,7 +70,7 @@ main{
 }
 
 #section1{
-    background-image: url(imagens/fundo01.jpg);
+    background-image: url(../imagens/fundo01.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -82,7 +84,7 @@ main{
 }
 
 #section1 > h1{
-    font-size: 6em;
+    font-size: 4.8em;
     font-family: "Cinzel Decorative", serif;
     font-weight: bolder;
     font-style: normal;
@@ -92,21 +94,21 @@ main{
 }
 
 #section1 > h2{
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: "Radley", serif;
     font-weight: 400;
     font-style: italic;
     color: white;
     text-shadow: 3px 3px 3px black;
-    margin-top: -90px;
+    margin-top: -70px;
 }
 
 #conhecendo{
-    padding-left: 150px;
+    padding-left: 40px;
 }
 
 #section2 > #conhecendo > h1{
-    font-size: 4em;
+    font-size: 2em;
     font-family: "Croissant One", serif;
     font-weight: 400;
     font-style: normal;
@@ -120,8 +122,8 @@ main{
 #section2 > #conhecendo > h2{
     font-family: "Radley", serif;
     font-weight: bold;
-    font-size: 2em;
-    margin-top: -40px;
+    font-size: 16.5px;
+    margin-top: -25px;
     display: flex;
     align-items: start;
     justify-content: start;
@@ -130,7 +132,7 @@ main{
 
 #section2 > div > p{
     font-family: "Radley", serif;
-    font-size: 21px;
+    font-size: 16.5px;
     font-weight: normal;
     display: flex;
     align-items: start;
@@ -149,17 +151,18 @@ main{
 }
 
 #pessoascomendo{
-    width: 300px;
-    height: 450px;
+    width: 200px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #000000c0;
-    margin-left: 750px;
-    margin-top: -260px;
+    margin-left: 220px;
+    margin-top: -215px;
 }
 
 #comida{
+    width: 190px;
     margin-top: -170px;
-    margin-left: 100px;
+    margin-left: 5px;
 }
 
 #cardapio > h1{
