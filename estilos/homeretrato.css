@@ -26,34 +26,64 @@ header > img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    margin-left: 360px;
     margin-top: 6px;
     position: absolute;
+    display: block;
+    left: 75%;
 }
 
 #homelinks{
     display: none;
 }
 
+li{
+    font-size: 25px;
+}
+
 ul{
     position: absolute;
     background-color: #e1c06e;
+    height: 18vh;
+    width: 100%;
+    margin-left: -8px;
     list-style: none;
-    width: 140px;
-    padding: 20px 15px 10px 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
     font-weight: 500;
-    margin-left: -9px;
-    margin-top: 70px;
+    display: flex;
+    top: 16.4%;
 }
 
-li{
-    margin-bottom: 12px;
+#lihome{
+    position: absolute;
+    top: 18%;
+}
+
+#licardapio{
+    position: absolute;
+    top: 55%;
+    left: 18%;
+}
+
+#liquemsomos{
+    position: absolute;
+    top: 55%;
+    left: 53%;
+}
+
+#licomochegar{
+    position: absolute;
+    top: 18%;
+    left: 32%;
+}
+
+#licontato{
+    position: absolute;
+    top: 18%;
+    left: 73%;
 }
 
 li:hover{
-    text-decoration: underline;
+    color: white;
+    font-weight: 700;
 }
 
 .link{
@@ -104,7 +134,7 @@ main{
 }
 
 #conhecendo{
-    padding-left: 40px;
+    padding-left: 28px;
 }
 
 #section2 > #conhecendo > h1{
@@ -151,58 +181,87 @@ main{
 }
 
 #pessoascomendo{
-    width: 200px;
-    height: 300px;
+    width: 230px;
+    height: 350px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #000000c0;
-    margin-left: 220px;
+    position: absolute;
+    display: block;
+    left: 50%;
     margin-top: -215px;
 }
 
 #comida{
+    display: none;
     width: 190px;
-    margin-top: -170px;
-    margin-left: 5px;
+    margin-top: -100px;
+    
 }
 
 #cardapio > h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 120px;
-    font-size: 3.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1800%);
+    font-size: 2.5em;
     font-family: "Radley", serif;
+    word-wrap: nowrap;
+    white-space: nowrap;
 }
 
 img#baiana{
-    width: 350px;
-    height: 250px;
+    width: 160px;
+    height: 130px;
     border-radius: 50%;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.534);
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 #paragbaiana{
     font-family: "Radley", serif;
-    margin-left: 130px;
+    margin-left: 15px;
+}
+
+#divbaiana{
+    margin-left: 30px;
+    position: absolute;
+    top: 225%;
 }
 
 img#feijoada{
-    width: 350px;
-    height: 250px;
+    width: 160px;
+    height: 130px;
     border-radius: 50%;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.534);
-    margin-left: 500px;
-    margin-top: -1500px;
+}
+
+#paragfeijoada{
+    font-family: "Radley", serif;
+    margin-left: 40px;
+}
+
+#divfeijoada{
+    position: absolute;
+    display: block;
+    left: 35%;
+    top: 257%;
 }
 
 img#frango{
-    width: 350px;
-    height: 250px;
+    width: 160px;
+    height: 130px;
     border-radius: 50%;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.534);
+}
+
+#paragfrango{
+    font-family: "Radley", serif;
+}
+
+#divfrango{
+    position: absolute;
+    display: block;
+    left: 65%;
+    top: 225%;
 }
 
 footer{
