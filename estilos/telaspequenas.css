@@ -117,6 +117,16 @@ main{
     margin-top: -45px;
 }
 
+#section2{
+    background-image: url(../imagens/fundo02.jpg);    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 65vh;
+    margin-top: -50px;
+}
+
 #section2 > #conhecendo{
     width: 250px;
     display: block;
@@ -132,7 +142,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 60px;
+    padding-top: 50px;
 }
 
 #section2 > #conhecendo > h2{
@@ -158,97 +168,63 @@ main{
     text-align: justify;
 }
 
-#section2 > div{
-    background-image: url(imagens/fundo02.jpg);
-    background-attachment: fixed;
-    background-position: center bottom;
-    background-size: cover;
-    width: 100%;
-    height: 130vh;
-    margin-top: -80px;
-}
-
-#pessoascomendo{
-    display: none;
-    width: 230px;
-    height: 350px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px #000000c0;
-    position: absolute;
-    left: 50%;
-    margin-top: -215px;
-}
-
 #comida{
     width: 190px;
     display: block;
     margin: auto;
 }
 
-#cardapio > h1{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, 1800%);
-    font-size: 2.8em;
-    font-family: "Radley", serif;
-    word-wrap: nowrap;
-    white-space: nowrap;
+#section3{
+    background-image: url(../imagens/pessoascomendo.jpg);    
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+    margin-top: -50px;
 }
 
-img#baiana{
-    width: 160px;
-    height: 130px;
-    border-radius: 50%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.534);
-}
-
-#paragbaiana{
-    font-family: "Radley", serif;
-    margin-left: 15px;
-}
-
-#divbaiana{
-    margin-left: 30px;
-    position: absolute;
-    top: 225%;
-}
-
-img#feijoada{
-    width: 160px;
-    height: 130px;
-    border-radius: 50%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.534);
-}
-
-#paragfeijoada{
-    font-family: "Radley", serif;
-    margin-left: 40px;
-}
-
-#divfeijoada{
-    position: absolute;
+#cardapio{
+    background-color: #808080ad;
     display: block;
-    left: 35%;
-    top: 257%;
+    margin: auto;
+    width: 340px;
+    height: 90vh;
 }
 
-img#frango{
-    width: 160px;
-    height: 130px;
-    border-radius: 50%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.534);
-}
-
-#paragfrango{
+#section3 > div > h1{
+    font-size: 2em;
     font-family: "Radley", serif;
+    text-align: center;
+    padding-top: 30px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
 }
 
-#divfrango{
+#cardapios{
+    margin-top: 50px;
+}
+
+#cardapios > div > img{
+    width: 150px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 2px #000000;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#cardapios > div > p{
+    font-family: "Radley", serif;
+    text-align: center;
     position: absolute;
-    display: block;
-    left: 65%;
-    top: 225%;
+    margin-top: -90px;
+    margin-left: 185px;
+    font-size: 18px;
+    color: aliceblue;
+    text-shadow: 3px 3px 4px #000000;
+    font-weight: 700;
 }
 
 footer{
@@ -288,28 +264,27 @@ footer > p{
 
 #funcionamento > p{
     color: aliceblue;
+    text-align: left;
 }
 
 #funcionamento{
-    position: absolute;
-    display: block;
-    top: 373%;
-    left: 54%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    margin-top: -260px;
+    margin-right: 60px;
+    text-align: left;
 }
 
-#wpp{
+footer > #redessociais > a > img{
     width: 55px;
     border-radius: 50%;
-    position: absolute;
-    left: 59%;
-    top: 400%;
+    margin-left: 10px;
 }
 
-#instagram{
-    width: 55px;
-    border-radius: 50%;
-    position: absolute;
-    left: 73%;
-    top: 400%;
+#redessociais{
+    margin-left: 240px;
+    margin-top: 15px;
 }
 }
