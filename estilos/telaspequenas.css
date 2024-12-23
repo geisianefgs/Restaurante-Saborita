@@ -117,41 +117,45 @@ main{
     margin-top: -45px;
 }
 
-#conhecendo{
-    padding-left: 30px;
+#section2 > #conhecendo{
+    width: 250px;
+    display: block;
+    margin: auto;
 }
 
 #section2 > #conhecendo > h1{
-    font-size: 2em;
+    font-size: 2.7em;
     font-family: "Croissant One", serif;
     font-weight: 400;
     font-style: normal;
     display: flex;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    padding-top: 100px;
+    margin-top: 60px;
 }
 
 #section2 > #conhecendo > h2{
     font-family: "Radley", serif;
     font-weight: bold;
-    font-size: 16.5px;
-    margin-top: -25px;
+    font-size: 18.1px;
+    margin-top: -18px;
     display: flex;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    text-align: justify;
 }
 
 #section2 > div > p{
     font-family: "Radley", serif;
-    font-size: 16.5px;
+    font-size: 18.1px;
     font-weight: normal;
     display: flex;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    text-align: justify;
 }
 
 #section2 > div{
@@ -165,21 +169,20 @@ main{
 }
 
 #pessoascomendo{
+    display: none;
     width: 230px;
     height: 350px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #000000c0;
     position: absolute;
-    display: block;
     left: 50%;
     margin-top: -215px;
 }
 
 #comida{
-    display: none;
     width: 190px;
-    margin-top: -100px;
-    
+    display: block;
+    margin: auto;
 }
 
 #cardapio > h1{
