@@ -98,7 +98,7 @@ main{
 }
 
 #section1 > h1{
-    font-size: 4em;
+    font-size: 3em;
     font-family: "Cinzel Decorative", serif;
     font-weight: bolder;
     font-style: normal;
@@ -108,13 +108,13 @@ main{
 }
 
 #section1 > h2{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: "Radley", serif;
     font-weight: 400;
     font-style: italic;
     color: white;
     text-shadow: 3px 3px 3px black;
-    margin-top: -60px;
+    margin-top: -45px;
 }
 
 #conhecendo{
