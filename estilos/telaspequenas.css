@@ -231,20 +231,42 @@ main{
 #section4{
     background-color: white;
     padding-bottom: 30px;
+    font-family: "Croissant One", serif;
+    margin-top: 30px;
 }
 
 #section4 > h1{
     text-align: center;
-    font-family: "Cinzel Decorative", serif;
-    color: #e1c06e;
-    font-weight: bolder;
+    font-family: ;
+    color: #e4b132;
+    background-color: #000000;
+    padding: 2px;
 }
 
 #section4 > img{
     display: block;
     width: 300px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 10px;
+} 
+
+#section5{
+    background-image: url(../imagens/fundo02.jpg);    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#section5 > h1{
+    text-align: center;
+}
+
+#section5 > a > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
 }
 
 footer{
