@@ -271,10 +271,10 @@ main{
 
 footer{
     background-color: black;
-    width: 100vw;
     margin-bottom: -10px;
-    margin-left: -8px;
-    padding: 10px 30px;
+    padding: 20px 35px;
+    margin-right: -8px;
+    margin-right: -8px;
 }
 
 footer > h2{
@@ -311,6 +311,6 @@ footer > p{
 footer > #redessociais > a > img{
     width: 55px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 }
