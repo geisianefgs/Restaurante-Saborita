@@ -6,3 +6,11 @@ function clickmenu(){
             homelinks.style.display = 'block'
         }
 }
+
+function tela(){
+    if(window.innerWidth > 768){
+        homelinks.style.display = 'block'
+    } else{
+        homelinks.style.display = 'none'
+    }
+}

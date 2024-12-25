@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=Creepster&family=Nosifer&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
@@ -22,52 +22,42 @@ header{
 #menu{
     position: absolute;
     margin: 28px 30px;
-    cursor: pointer; /*Transformar o curso em uma mão assim que passar o mouse por cima*/
-}
+    cursor: pointer; /*Transformar o curso em uma mão assim que passar o mouse por cima*/}
 
 header > img{
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
-    margin-top: 6px;
     position: absolute;
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    justify-items: end;
     right: 5%;
+    top: 10%;
 }
 
 #homelinks{
-    display: none;
-}
-
-li{
-    font-size: 25px;
-    margin-top: 10px;
+    margin-top: 25px;
+    margin-left: -8px;
+    position: absolute;
 }
 
 ul{
-    position: absolute;
-    background-color: #e1c06e;
-    width: 190px;
-    margin-left: -8px;
     list-style: none;
-    font-weight: 500;
-    padding: 10px 10px 22px 25px;
-    margin-top: 80px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -40px;
 }
 
-#lihome{
-    position: absolute;
-    top: 18%;
+li{
+    padding-left: 15px;
 }
 
-li:hover{
-    color: white;
-    font-weight: 700;
+#home{
+    color: black;
+    background-color: #e4b132;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-size: 22px;
+    border-radius: 20px;
 }
 
 .link{
@@ -75,6 +65,10 @@ li:hover{
     text-decoration: none;
     color: black;
     font-size: 22px;
+}
+
+.link:hover{
+    text-decoration: underline;
 }
 
 main{
@@ -98,7 +92,7 @@ main{
 }
 
 #section1 > h1{
-    font-size: 3em;
+    font-size: 5em;
     font-family: "Cinzel Decorative", serif;
     font-weight: bolder;
     font-style: normal;
@@ -108,13 +102,13 @@ main{
 }
 
 #section1 > h2{
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-family: "Radley", serif;
     font-weight: 400;
     font-style: italic;
     color: white;
     text-shadow: 3px 3px 3px black;
-    margin-top: -45px;
+    margin-top: -68px;
 }
 
 #section2{
