@@ -127,6 +127,10 @@ main{
     margin-top: -36px;
 }
 
+#pessoascomendo{
+    display: none;
+}
+
 #section2 > #conhecendo{
     width: 250px;
     display: block;
@@ -181,6 +185,7 @@ main{
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
+    height: 100vh;
     padding-bottom: 30px;
     margin-top: -50px;
 }
@@ -194,7 +199,7 @@ main{
     padding-right: 10px;
 }
 
-#section3 > div > h1{
+#h1section3{
     font-size: 1.9em;
     font-family: "Radley", serif;
     text-align: center;
@@ -207,7 +212,7 @@ main{
     margin-top: 35px;
 }
 
-#cardapios > div > img{
+#blocoimg1 > img{
     width: 130px;
     height: 90px;
     border-radius: 50%;
@@ -216,7 +221,7 @@ main{
     margin-bottom: 20px;
 }
 
-#cardapios > div > p{
+#blocoimg1 > p{
     font-family: "Radley", serif;
     font-size: 14px;
     text-align: center;
@@ -272,7 +277,7 @@ footer{
     background-color: black;
     margin-bottom: -10px;
     padding: 20px 35px;
-    margin-right: -8px;
+    margin-left: -8px;
     margin-right: -8px;
 }
 
